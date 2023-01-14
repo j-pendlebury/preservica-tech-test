@@ -1,0 +1,24 @@
+.user-wrapper {
+  border: 1px solid #abc;
+  padding: 10px;
+  margin-bottom: 10px;
+  grid-column: 1/2;
+  margin-top: 20px;
+}
+
+.user-detail {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.users-list {
+  display: grid;
+}
+
+.user-list.single-column {
+  grid-template-columns: 1fr; 
+}
+
+.user-list.double-column {
+  grid-template-columns: repeat(2, 1fr);
+}

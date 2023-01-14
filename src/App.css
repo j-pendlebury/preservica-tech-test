@@ -1,0 +1,25 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+label {
+  margin: 1rem 0;
+}
+
+input {
+  margin-left: 5px;
+}
+
+.continue-btn {
+  margin-top: 10px;
+}
+
+.error {
+  font-weight: 700;
+  color: red;
+  padding: 5px;
+}
